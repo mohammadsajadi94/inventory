@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5ACA0991-37CF-4388-88D7-01F7292868F7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>anbardari</RootNamespace>
+    <AssemblyName>anbardari</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="acceptanbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="acceptanbar.Designer.cs">
+      <DependentUpon>acceptanbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="createmessege.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createmessege.Designer.cs">
+      <DependentUpon>createmessege.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editeanbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editeanbar.Designer.cs">
+      <DependentUpon>editeanbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editebuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editebuy.Designer.cs">
+      <DependentUpon>editebuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editesale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editesale.Designer.cs">
+      <DependentUpon>editesale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editeuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editeuser.Designer.cs">
+      <DependentUpon>editeuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="enter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enter.Designer.cs">
+      <DependentUpon>enter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmain.Designer.cs">
+      <DependentUpon>frmmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="inbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inbox.Designer.cs">
+      <DependentUpon>inbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="maxforosh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="maxforosh.Designer.cs">
+      <DependentUpon>maxforosh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="createSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createSale.Designer.cs">
+      <DependentUpon>createSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="createBuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="createBuy.Designer.cs">
+      <DependentUpon>createBuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sabtanbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sabtanbar.Designer.cs">
+      <DependentUpon>sabtanbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="saveanbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saveanbar.Designer.cs">
+      <DependentUpon>saveanbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="savebuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="savebuy.Designer.cs">
+      <DependentUpon>savebuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="savesale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="savesale.Designer.cs">
+      <DependentUpon>savesale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sendbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sendbox.Designer.cs">
+      <DependentUpon>sendbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showanbar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showanbar.Designer.cs">
+      <DependentUpon>showanbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showbuy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showbuy.Designer.cs">
+      <DependentUpon>showbuy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showsale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showsale.Designer.cs">
+      <DependentUpon>showsale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="acceptanbar.resx">
+      <DependentUpon>acceptanbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="createmessege.resx">
+      <DependentUpon>createmessege.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editeanbar.resx">
+      <DependentUpon>editeanbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editebuy.resx">
+      <DependentUpon>editebuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editesale.resx">
+      <DependentUpon>editesale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editeuser.resx">
+      <DependentUpon>editeuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enter.resx">
+      <DependentUpon>enter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmain.resx">
+      <DependentUpon>frmmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="createSale.resx">
+      <DependentUpon>createSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="createBuy.resx">
+      <DependentUpon>createBuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inbox.resx">
+      <DependentUpon>inbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="maxforosh.resx">
+      <DependentUpon>maxforosh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sabtanbar.resx">
+      <DependentUpon>sabtanbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saveanbar.resx">
+      <DependentUpon>saveanbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="savebuy.resx">
+      <DependentUpon>savebuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="savesale.resx">
+      <DependentUpon>savesale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sendbox.resx">
+      <DependentUpon>sendbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showanbar.resx">
+      <DependentUpon>showanbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showbuy.resx">
+      <DependentUpon>showbuy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showsale.resx">
+      <DependentUpon>showsale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DAL\pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DAL\pic 4.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
